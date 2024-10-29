@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTacToe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>
+        Tic Tac Toe, You A Hoe
+    </h1>
+    <div class="heading">
+    </div>
+    <script src="operators.js"></script>
+    <div class="gameBox">
+            <div id="row1">
+                <button onclick=clicked(11) id="r1c1"> </button>
+                <button onclick=clicked(12) id="r1c2"> </button>
+                <button onclick=clicked(13) id="r1c3"> </button>
+            </div>
+            <div id="row2">
+                <button onclick=clicked(21) id="r2c1"> </button>
+                <button onclick=clicked(22) id="r2c2"> </button>
+                <button onclick=clicked(23) id="r2c3"> </button>
+            </div>
+            <div id="row3">
+                <button onclick=clicked(31) id="r3c1"> </button>
+                <button onclick=clicked(32) id="r3c2"> </button>
+                <button onclick=clicked(33) id="r3c3"> </button>
+            </div>
+    </div>
+    <button onclick=resetGame() id="reset">Reset</button>
+
+    <h1 id="outputBox">Turn of Player Number: 1</h1>
+
+    <span>Score:</span>
+    <br>
+    <span>Player 1:</span>
+    <span id="p1Score">0</span>
+    <span>Player 2:</span>
+    <span id="p2Score">0</span>
+
+</body>
+</html>
