@@ -1,1 +1,2 @@
-# TicTacToe
+# TicTacToe game
+Just for fun.
