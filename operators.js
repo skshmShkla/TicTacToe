@@ -5,7 +5,7 @@ function clicked(pos){
     const currButton=document.getElementById('r'+Math.floor(pos/10)+'c'+(pos%10));
     const output=document.getElementById("outputBox");
     if(currButton.textContent!=' '){
-        output.textContent="Lodey Cheating mt kr";
+        output.textContent="Select a valid box";
         return;
     }
     output.textContent=`Turn of Player Number: ${playerNo} `;
